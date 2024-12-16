@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Erosion of Nature</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #1e1e1e;
+            color: #f4f4f4;
+        }
+        header {
+            background-color: #2a7a77;
+            padding: 2em 1em;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            font-size: 1.2em;
+            margin: 10px 0 0;
+        }
+        .gallery {
+            margin: 30px auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            max-width: 900px;
+            padding: 20px;
+        }
+        .gallery a {
+            text-decoration: none;
+            color: inherit;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            font-size: 0.9em;
+            background-color: #2a7a77;
+            color: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>The Erosion of Nature</h1>
+        <p>An Interactive Glitch Art Exploration</p>
+    </header>
+    <section class="gallery">
+        <a href="pristine-nature.html">
+            <img src="pristine.jpg" alt="Pristine Nature">
+            <p>Pristine Nature</p>
+        </a>
+       <a href="human-encroachment.html">
+            <img src="encroachment.jpg" alt="Human Encroachment">
+            <p>Human Encroachment</p>
+        </a>
+        <a href="urbanization.html">
+            <img src="urbanization.jpg" alt="Urbanization">
+            <p>Urbanization</p>
+        </a>
+        <a href="collapse.html">
+            <img src="collapse.jpg" alt="Environmental Collapse">
+            <p>Environmental Collapse</p>
+        </a>
+        <a href="reclaim.html">
+            <img src="reclaim.jpg" alt="Nature Reclaims">
+            <p>Nature Reclaims</p>
+        </a>
+    </section>
+    <footer>
+        <p> 2024 The Erosion of Nature | Created by Lucas Lio</p>
+    </footer>
+</body>
+</html>
